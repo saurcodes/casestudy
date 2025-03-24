@@ -138,7 +138,7 @@
   <text x="225" y="550" font-family="Arial" font-size="10" text-anchor="middle">Mobile App Services</text>
   
   <rect x="290" y="530" width="110" height="30" rx="5" ry="5" fill="#ffffff" stroke="#ff9800" stroke-width="1"/>
-  <text x="345" y="550" font-family="Arial" font-size="10" text-anchor="middle">AWS CloudWatch</text>
+  <text x="345" y="550" font-family="Arial" font-size="10" text-anchor="middle">Azure (Analytics)</text>
   
   <!-- AWS Services -->
   <rect x="410" y="530" width="70" height="30" rx="5" ry="5" fill="#ffffff" stroke="#232f3e" stroke-width="1"/>
