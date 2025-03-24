@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold">Approach 3: Cloud-Native Serverless Architecture</text>
+  
+  <!-- AWS Cloud -->
+  <rect x="50" y="60" width="700" height="500" rx="10" ry="10" fill="#f0f0f0" stroke="#232f3e" stroke-width="2"/>
+  <text x="400" y="80" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">AWS Cloud</text>
+  
+  <!-- Global Services -->
+  <rect x="80" y="100" width="640" height="50" rx="5" ry="5" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="180" y="130" font-family="Arial" font-size="14" font-weight="bold">Global Services</text>
+  
+  <!-- CloudFront -->
+  <rect x="240" y="110" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="280" y="130" font-family="Arial" font-size="10" text-anchor="middle">CloudFront</text>
+  
+  <!-- Route 53 -->
+  <rect x="340" y="110" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="380" y="130" font-family="Arial" font-size="10" text-anchor="middle">Route 53</text>
+  
+  <!-- Certificate Manager -->
+  <rect x="440" y="110" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="480" y="130" font-family="Arial" font-size="10" text-anchor="middle">ACM</text>
+  
+  <!-- Main Region -->
+  <rect x="80" y="170" width="640" height="330" rx="5" ry="5" fill="#ffffff" stroke="#1a73e8" stroke-width="1"/>
+  <text x="120" y="190" font-family="Arial" font-size="14" font-weight="bold">Region</text>
+  
+  <!-- Client Tier -->
+  <rect x="100" y="210" width="600" height="70" rx="5" ry="5" fill="#e3f2fd" stroke="#0288d1" stroke-width="1"/>
+  <text x="170" y="230" font-family="Arial" font-size="12" font-weight="bold">Client Tier</text>
+  
+  <!-- S3 Website -->
+  <rect x="140" y="240" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="180" y="260" font-family="Arial" font-size="10" text-anchor="middle">S3 Website</text>
+  
+  <!-- Mobile Apps -->
+  <rect x="240" y="240" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="280" y="260" font-family="Arial" font-size="10" text-anchor="middle">Mobile Apps</text>
+  
+  <!-- Amplify -->
+  <rect x="340" y="240" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="380" y="260" font-family="Arial" font-size="10" text-anchor="middle">Amplify</text>
+  
+  <!-- Cognito -->
+  <rect x="440" y="240" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="480" y="260" font-family="Arial" font-size="10" text-anchor="middle">Cognito</text>
+  
+  <!-- API Tier -->
+  <rect x="100" y="290" width="600" height="70" rx="5" ry="5" fill="#e8f5e9" stroke="#388e3c" stroke-width="1"/>
+  <text x="170" y="310" font-family="Arial" font-size="12" font-weight="bold">API Tier</text>
+  
+  <!-- API Gateway -->
+  <rect x="140" y="320" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="180" y="340" font-family="Arial" font-size="10" text-anchor="middle">API Gateway</text>
+  
+  <!-- AppSync -->
+  <rect x="240" y="320" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="280" y="340" font-family="Arial" font-size="10" text-anchor="middle">AppSync</text>
+  
+  <!-- EventBridge -->
+  <rect x="340" y="320" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="380" y="340" font-family="Arial" font-size="10" text-anchor="middle">EventBridge</text>
+  
+  <!-- SQS -->
+  <rect x="440" y="320" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="480" y="340" font-family="Arial" font-size="10" text-anchor="middle">SQS</text>
+  
+  <!-- SNS -->
+  <rect x="540" y="320" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="580" y="340" font-family="Arial" font-size="10" text-anchor="middle">SNS</text>
+  
+  <!-- Compute Tier -->
+  <rect x="100" y="370" width="600" height="70" rx="5" ry="5" fill="#ffebee" stroke="#d32f2f" stroke-width="1"/>
+  <text x="170" y="390" font-family="Arial" font-size="12" font-weight="bold">Compute Tier</text>
+  
+  <!-- Lambda (E-commerce) -->
+  <rect x="120" y="400" width="70" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="155" y="420" font-family="Arial" font-size="9" text-anchor="middle">Lambda E-commerce</text>
+  
+  <!-- Lambda (Retail) -->
+  <rect x="200" y="400" width="70" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="235" y="420" font-family="Arial" font-size="9" text-anchor="middle">Lambda Retail</text>
+  
+  <!-- Lambda (Customer) -->
+  <rect x="280" y="400" width="70" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="315" y="420" font-family="Arial" font-size="9" text-anchor="middle">Lambda Customer</text>
+  
+  <!-- Lambda (Middleware) -->
+  <rect x="360" y="400" width="70" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="395" y="420" font-family="Arial" font-size="9" text-anchor="middle">Lambda Middleware</text>
+  
+  <!-- Step Functions -->
+  <rect x="440" y="400" width="70" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="475" y="420" font-family="Arial" font-size="9" text-anchor="middle">Step Functions</text>
+  
+  <!-- Lambda (Analytics) -->
+  <rect x="520" y="400" width="70" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="555" y="420" font-family="Arial" font-size="9" text-anchor="middle">Lambda Analytics</text>
+  
+  <!-- Data Tier -->
+  <rect x="100" y="450" width="600" height="70" rx="5" ry="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="170" y="470" font-family="Arial" font-size="12" font-weight="bold">Data Tier</text>
+  
+  <!-- DynamoDB -->
+  <rect x="140" y="480" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="180" y="500" font-family="Arial" font-size="10" text-anchor="middle">DynamoDB</text>
+  
+  <!-- Aurora Serverless -->
+  <rect x="240" y="480" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="280" y="500" font-family="Arial" font-size="10" text-anchor="middle">Aurora Serverless</text>
+  
+  <!-- S3 -->
+  <rect x="340" y="480" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="380" y="500" font-family="Arial" font-size="10" text-anchor="middle">S3</text>
+  
+  <!-- ElastiCache -->
+  <rect x="440" y="480" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="480" y="500" font-family="Arial" font-size="10" text-anchor="middle">ElastiCache</text>
+  
+  <!-- Timestream -->
+  <rect x="540" y="480" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9900" stroke-width="1"/>
+  <text x="580" y="500" font-family="Arial" font-size="10" text-anchor="middle">Timestream</text>
+  
+  <!-- External Services -->
+  <rect x="80" y="520" width="640" height="40" rx="5" ry="5" fill="#fff3e0" stroke="#ff9800" stroke-width="1"/>
+  <text x="170" y="540" font-family="Arial" font-size="12" font-weight="bold">External Services</text>
+  
+  <!-- Salesforce CRM -->
+  <rect x="240" y="525" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9800" stroke-width="1"/>
+  <text x="280" y="545" font-family="Arial" font-size="10" text-anchor="middle">Salesforce CRM</text>
+  
+  <!-- Mobile App Services -->
+  <rect x="340" y="525" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9800" stroke-width="1"/>
+  <text x="380" y="545" font-family="Arial" font-size="9" text-anchor="middle">Mobile App Services</text>
+  
+  <!-- Azure Analytics -->
+  <rect x="440" y="525" width="80" height="30" rx="3" ry="3" fill="#ffffff" stroke="#ff9800" stroke-width="1"/>
+  <text x="480" y="545" font-family="Arial" font-size="10" text-anchor="middle">Azure Analytics</text>
+  
+  <!-- Connection Lines -->
+  <!-- CloudFront to Client Tier -->
+  <line x1="280" y1="140" x2="280" y2="210" stroke="#232f3e" stroke-width="1" stroke-dasharray="5,5"/>
+  <!-- Route 53 to CloudFront -->
+  <line x1="380" y1="125" x2="320" y2="125" stroke="#232f3e" stroke-width="1"/>
+  
+  <!-- Client to API Tier -->
+  <line x1="180" y1="270" x2="180" y2="320" stroke="#232f3e" stroke-width="1"/>
+  <line x1="280" y1="270" x2="280" y2="320" stroke="#232f3e" stroke-width="1"/>
+  <line x1="380" y1="270" x2="380" y2="320" stroke="#232f3e" stroke-width="1"/>
+  
+  <!-- API to Compute Tier -->
+  <line x1="180" y1="350" x2="155" y2="400" stroke="#232f3e" stroke-width="1"/>
+  <line x1="280" y1="350" x2="235" y2="400" stroke="#232f3e" stroke-width="1"/>
+  <line x1="280" y1="350" x2="315" y2="400" stroke="#232f3e" stroke-width="1"/>
+  <line x1="380" y1="350" x2="395" y2="400" stroke="#232f3e" stroke-width="1"/>
+  <line x1="480" y1="350" x2="475" y2="400" stroke="#232f3e" stroke-width="1"/>
+  <line x1="580" y1="350" x2="555" y2="400" stroke="#232f3e" stroke-width="1"/>
+  
+  <!-- Compute to Data Tier -->
+  <line x1="155" y1="430" x2="180" y2="480" stroke="#232f3e" stroke-width="1"/>
+  <line x1="235" y1="430" x2="280" y2="480" stroke="#232f3e" stroke-width="1"/>
+  <line x1="315" y1="430" x2="280" y2="480" stroke="#232f3e" stroke-width="1"/>
+  <line x1="395" y1="430" x2="380" y2="480" stroke="#232f3e" stroke-width="1"/>
+  <line x1="475" y1="430" x2="480" y2="480" stroke="#232f3e" stroke-width="1"/>
+  <line x1="555" y1="430" x2="580" y2="480" stroke="#232f3e" stroke-width="1"/>
+  
+  <!-- External Services Integration -->
+  <line x1="280" y1="525" x2="280" y2="450" stroke="#ff9800" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="380" y1="525" x2="380" y2="450" stroke="#ff9800" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="480" y1="525" x2="480" y2="450" stroke="#ff9800" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Legend -->
+  <rect x="630" y="130" width="10" height="10" fill="#e3f2fd" stroke="#0288d1" stroke-width="1"/>
+  <text x="645" y="140" font-family="Arial" font-size="8">Client Tier</text>
+  
+  <rect x="630" y="150" width="10" height="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="1"/>
+  <text x="645" y="160" font-family="Arial" font-size="8">API Tier</text>
+  
+  <rect x="630" y="170" width="10" height="10" fill="#ffebee" stroke="#d32f2f" stroke-width="1"/>
+  <text x="645" y="180" font-family="Arial" font-size="8">Compute Tier</text>
+  
+  <rect x="630" y="190" width="10" height="10" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="645" y="200" font-family="Arial" font-size="8">Data Tier</text>
+  
+  <rect x="630" y="210" width="10" height="10" fill="#fff3e0" stroke="#ff9800" stroke-width="1"/>
+  <text x="645" y="220" font-family="Arial" font-size="8">External Services</text>
+</svg>
